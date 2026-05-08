@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Diegoindio/desafio_login_pgats/issues"
   },
-  "homepage": "https://github.com/Diegoindio/desafio_login_pgats#readme"
+  "homepage": "https://github.com/Diegoindio/desafio_login_pgats#readme",
+  "dependencies": {
+    "mocha": "^11.7.5"
+  }
 }
