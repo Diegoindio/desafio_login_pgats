@@ -5,10 +5,13 @@ import assert from "node:assert";
 
 describe("Teste de Login", function () {
     it("Realizar login com sucesso", function () {
+        //Act
         const resultado = login("carlos.santos@gmail.com", "senha789");
+        //Assert
         assert.strictEqual(resultado, "Login realizado com sucesso.");
     });
     it('Realizar login com credenciais expiradas', function () {
+        //Act e Assert
         assert.throws(
             function () {
                 login("maria.oliveira@gmail.com", "senha456");
@@ -19,19 +22,23 @@ describe("Teste de Login", function () {
     });
 
     it('Realizar login com usuário incorreto', function () {
+        //Act e Assert
         assert.throws(
-            function() {
-            login("email.incorreto@gmail.com", "senha123");
-        }, 
-        {            message: "As credenciais estão incorretas."
-        });
+            function () {
+                login("email.incorreto@gmail.com", "senha123");
+            },
+            {
+                message: "As credenciais estão incorretas."
+            });
     });
     it('Realizar login com senha incorreta para usuário encontrado', function () {
+        //Act e Assert
         assert.throws(
-            function() {
-            login("joao.silva@gmail.com", "senhaErrada");
-        }, 
-        {            message: "As credenciais estão incorretas."
-        });
+            function () {
+                login("joao.silva@gmail.com", "senhaErrada");
+            },
+            {
+                message: "As credenciais estão incorretas."
+            });
     });
 });
