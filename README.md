@@ -1,4 +1,4 @@
-# desafio_login_pgats
+# Desafio Função Login
  Programação para Automação de Testes - Desafio Função Login
 
 Pré-requisitos:
