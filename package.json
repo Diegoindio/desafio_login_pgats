@@ -1,0 +1,21 @@
+{
+  "name": "desafio_login_pgats",
+  "version": "1.0.0",
+  "description": "Programação para Automação de Testes - Desafio Função Login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegoindio/desafio_login_pgats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Diegoindio/desafio_login_pgats/issues"
+  },
+  "homepage": "https://github.com/Diegoindio/desafio_login_pgats#readme"
+}
